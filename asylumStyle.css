@@ -1,0 +1,159 @@
+
+
+
+
+body {
+	background: #F5F5F5;
+}
+p {
+	font-family: "Noticia Text", serif;
+	font-size: 16px;
+	margin-left: 275px;
+	margin-right: 175px;
+}
+.dropCase:first-letter {
+	font-size: 200px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-variant: bold;
+ 	float: left; 
+	color: #A9A9A9;
+ 	line-height: 50px;
+ 	padding-top: 40px; 
+ 	padding-right: 6px;
+ 	padding-bottom: 40px;
+}
+
+.hed {
+	position: relative;
+	width: 100%;
+
+}
+
+h1 {
+	position: absolute;
+	top: 50%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 100px;
+	font-variant: bold;
+	color: #696969;
+	background: #F5F5F5;
+	padding-right: 50px;
+	
+}
+
+h2 {
+	position: absolute;
+	top: 65%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 60px;
+	font-variant: bold;
+	color: #A9A9A9;
+	background: #F5F5F5;
+	padding-right: 50px;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-variant: italic;
+	color: #696969;
+}
+
+.calcHed {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 32px;
+	font-variant: italic;
+	color: #A9A9A9;
+	margin-bottom: -10px;
+
+}
+
+#calc {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+	vertical-align: bottom;
+}
+
+#zipCode {
+	position: relative;
+	height: 34px;
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#audio_hype_container {
+	float: left;
+	margin-right: 30px;
+	margin-left: 100px;
+
+}
+#closestLocation {
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #FF0000;
+}
+
+#waitTime {
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #FF0000;
+}
+
+#distance {
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #FF0000;
+}
+
+#asylumCalculator {
+	position: relative;
+	top: 50%;
+	margin-left: 275px;
+}
+
+#break {
+	top: 50%;
+	margin-left: 45%;
+
+}
+
+.PQ {
+	float: right;
+	font-size: 40px;
+	padding-left: 30px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+#tab {
+	font-size: 24px;
+	text-align: right;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Cloud */
+
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+    
