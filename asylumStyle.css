@@ -20,7 +20,7 @@ p {
  	line-height: 50px;
  	padding-top: 40px; 
  	padding-right: 6px;
- 	padding-bottom: 40px;
+ 	padding-bottom: 50px;
 }
 
 .hed {
@@ -43,13 +43,16 @@ h1 {
 
 h2 {
 	position: absolute;
-	top: 65%;
+	top: 70%;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 60px;
 	font-variant: bold;
 	color: #A9A9A9;
 	background: #F5F5F5;
 	padding-right: 50px;
+
+
+
 }
 
 h3 {
@@ -59,7 +62,7 @@ h3 {
 	color: #696969;
 }
 
-.calcHed {
+.subHed {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 32px;
 	font-variant: italic;
@@ -74,6 +77,9 @@ h3 {
 	vertical-align: bottom;
 }
 
+#map {
+	float: right;
+}
 #zipCode {
 	position: relative;
 	height: 34px;
@@ -89,26 +95,25 @@ h3 {
 
 }
 #closestLocation {
-	font-size: 24px;
+	font-size: 20px;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #FF0000;
 }
 
 #waitTime {
-	font-size: 24px;
+	font-size: 20px;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #FF0000;
 }
 
 #distance {
-	font-size: 24px;
+	font-size: 20px;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #FF0000;
 }
 
 #asylumCalculator {
 	position: relative;
-	top: 50%;
 	margin-left: 275px;
 }
 
@@ -147,11 +152,10 @@ h3 {
 }
 
 /* Cloud */
-
 hr {
-    border: 0;
-    height: 0; /* Firefox... */
-    box-shadow: 0 0 10px 1px black;
+	margin-left: 275px;
+	margin-right: 175px;
+
 }
 hr after {  /* Not really supposed to work, but does */
     content: "\00a0";  /* Prevent margin collapse */
