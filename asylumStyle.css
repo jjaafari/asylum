@@ -20,7 +20,11 @@ p {
  	line-height: 50px;
  	padding-top: 40px; 
  	padding-right: 6px;
+<<<<<<< HEAD
  	padding-bottom: 50px;
+=======
+ 	padding-bottom: 40px;
+>>>>>>> master
 }
 
 .hed {
@@ -43,7 +47,11 @@ h1 {
 
 h2 {
 	position: absolute;
+<<<<<<< HEAD
 	top: 70%;
+=======
+	top: 65%;
+>>>>>>> master
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 60px;
 	font-variant: bold;
@@ -74,11 +82,14 @@ h3 {
 	vertical-align: bottom;
 }
 
+<<<<<<< HEAD
 
 #map {
 	float: right;
 }
 
+=======
+>>>>>>> master
 #zipCode {
 	position: relative;
 	height: 34px;
@@ -94,19 +105,31 @@ h3 {
 
 }
 #closestLocation {
+<<<<<<< HEAD
 	font-size: 20px;
+=======
+	font-size: 24px;
+>>>>>>> master
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #FF0000;
 }
 
 #waitTime {
+<<<<<<< HEAD
 	font-size: 20px;
+=======
+	font-size: 24px;
+>>>>>>> master
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #FF0000;
 }
 
 #distance {
+<<<<<<< HEAD
 	font-size: 20px;
+=======
+	font-size: 24px;
+>>>>>>> master
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #FF0000;
 }
@@ -151,7 +174,21 @@ h3 {
 	height: 100%;
 }
 
+<<<<<<< HEAD
 hr {
 	margin-left: 275px;
 	margin-right: 175px;
 
+=======
+/* Cloud */
+
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+    
+>>>>>>> master
