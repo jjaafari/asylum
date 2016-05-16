@@ -63,16 +63,22 @@ h3 {
 
 }
 
+#attrib {
+	font-family: 'Noticia', serif;
+	font-size: 12px;
+	text-align: right;
+	margin-right: 175px;
+}
+
 #calc {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 40px;
 	vertical-align: bottom;
 }
 
-
-
 #map {
-	float: right;
+	width: 100%;
+	margin-left: 275px;
 }
 
 #zipCode {
