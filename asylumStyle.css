@@ -28,9 +28,24 @@ p {
 
 }
 
+.explainer {
+	margin-right: 300px;
+}
+
+#audioBox {
+	overflow: hidden;
+}
+
+#audio {
+	border: 1px solid #A9A9A9;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .hed {
 	position: relative;
 	width: 100%;
+	font-size: 70px;
 
 }
 
@@ -53,6 +68,7 @@ h3 {
 	font-variant: bold;
 	color: #696969;
 }
+
 
 .calcHed {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -89,11 +105,11 @@ h3 {
 
 }
 
-#audio_hype_container {
-	float: left;
-	margin-right: 30px;
-	margin-left: 100px;
-
+audio {
+	background-color: #696969;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 275px;
 }
 #closestLocation {
 	font-size: 24px;
