@@ -21,7 +21,14 @@ var lookup = function(zip) {
                 console.log(results);
 
                 $("#closestLocation").html("Your closest asylum office is in: " +  results.display_name + ".");
-                $("#waitTime").html("You will have to wait: " + results.wait_time_years + " years and " + results.wait_time_months + " months.");
+                var waitTime = ["You will have to wait: ", results.wait_time_years, " years"];
+                if(results.wait_time_months !== null){
+                    waitTime.push([" and ", results.wait_time_months, " months "].join(" "));
+                } else{
+                    waitTime.push(".");
+                }
+                
+                $("#waitTime").html(waitTime.join(""));
                 $("#distance").html("This office is " + parseInt(results.distance) + " miles from you.");
             })
             .error(function(errors) {
