@@ -69,6 +69,10 @@ h3 {
 	color: #696969;
 }
 
+#graph {
+	float: right;
+}
+
 
 .calcHed {
 	font-family: 'Roboto Condensed', sans-serif;
