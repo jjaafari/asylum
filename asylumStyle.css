@@ -53,7 +53,7 @@ h1 {
 	position: absolute;
 	top: 40%;
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 150px;
+	font-size: 120px;
 	font-variant: bold;
 	color: #696969;
 	background: #F5F5F5;
@@ -69,9 +69,6 @@ h3 {
 	color: #696969;
 }
 
-#graph {
-	float: right;
-}
 
 
 .calcHed {
